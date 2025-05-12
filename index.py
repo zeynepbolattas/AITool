@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-POWER_AUTOMATE_URL = "https://prod-27.westeurope.logic.azure.com:443/workflows/1ee9701ecce840c7998e11bfeacd7717/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=cy3bF2CpJH2IT6IvHNq0EIqbkJrkAJCikc55mc5Lu1o"
+POWER_AUTOMATE_URL = "https://prod-75.westeurope.logic.azure.com:443/workflows/4b127412de9b4126bd4430c52aee0625/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=fZcQFpEwJ-K3gj-lRmG00DVafFeOFPAOqc94FoJ8P4s"
 
 @app.route("/verzend", methods=["POST"])
 def verzend():
